@@ -1,0 +1,26 @@
+.ContainerMore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 155px;
+    background-color: #6559e8;
+}
+
+.TitleMoreInfo {
+    background: linear-gradient(to right, #ec7a5e, #f5e85e); /* Define el degradado */
+    -webkit-background-clip: text; /* Para Safari y Chrome */
+    color: transparent;
+    transition: all .3s ease-in-out;
+    user-select: none;
+}
+
+
+@media (width < 764px) { 
+    .ContainerMore {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 170px;
+    }
+
+}

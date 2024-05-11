@@ -1,0 +1,50 @@
+.ContainerMainInit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.Inter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.7s ease;
+    width: 100%;
+}
+
+.TextInit {
+    text-align: center;
+    background: linear-gradient(to right, #faed60, #bbff00); /* Define el degradado */
+    -webkit-background-clip: text; /* Para Safari y Chrome */
+    color: transparent;
+    transition: all .3s ease-in-out;
+    user-select: none;
+}
+
+.TextInit:hover {
+    transform: scale(1.1);
+}
+  
+
+.LogoStopya {
+    width: 30%;
+    user-select: none;
+}
+
+
+@media (width < 764px) {
+    .Inter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .LogoStopya {
+        margin-top: 30px;
+        width: 40%;
+        user-select: none;
+    }
+}
